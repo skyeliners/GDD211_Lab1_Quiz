@@ -11,14 +11,6 @@ public class Transitions : MonoBehaviour
 
 	private void Update()
 	{
-		if(Input.GetAxisRaw("Vertical") > 0f)
-		{
-			puppy1Animator.SetBool("Move", true);
-			transform.position += new Vector3(Time.deltaTime * 0.3f, 0f);
-		}
-		else
-		{
-			puppy1Animator.SetBool("Move", false);
-		}
+		
 	}
 }

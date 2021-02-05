@@ -12,15 +12,6 @@ public class BlendTree : MonoBehaviour
 
 	private void Update()
 	{
-		if(Input.GetAxisRaw("Vertical") > 0f)
-		{
-			speed = Mathf.Lerp(speed, 1f, Time.deltaTime * 2f);
-		}
-		else
-		{
-			speed = Mathf.Lerp(speed, 0f, Time.deltaTime * 10f);
-		}
-		puppy2Animator.SetFloat("Move", speed);
-		transform.position += new Vector3(Time.deltaTime * 0.3f * speed, 0f);
+		
 	}
 }
