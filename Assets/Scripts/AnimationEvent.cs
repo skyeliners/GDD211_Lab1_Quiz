@@ -12,7 +12,15 @@ public class AnimationEvent : MonoBehaviour
 
 	private void Update()
 	{
-		
+		if (Input.GetAxisRaw("Vertical") > 0f)
+		{
+			puppy3Animator.SetBool("Move", true);
+			transform.position += new Vector3(Time.deltaTime * 0.3f, 0f);
+		}
+		else
+		{
+			puppy3Animator.SetBool("Move", false);
+		}
 	}
 
 	public void PuppyMagicSpell()
