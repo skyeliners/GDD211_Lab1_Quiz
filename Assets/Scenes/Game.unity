@@ -7484,7 +7484,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507910469}
-  - component: {fileID: 1507910468}
   - component: {fileID: 1507910470}
   m_Layer: 0
   m_Name: Puppy 2
@@ -7493,25 +7492,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1507910468
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507910467}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d344e91547083d84cbaf6da4f25c15b4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1507910469
 Transform:
   m_ObjectHideFlags: 0
@@ -7539,7 +7519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60fc0837adac0c4c8fa7ae2dc653467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puppy2Animator: {fileID: 1507910468}
+  puppy2Animator: {fileID: 0}
 --- !u!1 &1521801160
 GameObject:
   m_ObjectHideFlags: 0
@@ -8283,7 +8263,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1862748082}
-  - component: {fileID: 1862748081}
   - component: {fileID: 1862748083}
   m_Layer: 0
   m_Name: Puppy 3
@@ -8292,25 +8271,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1862748081
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862748080}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2c029813b05da8943b084f2874438979, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1862748082
 Transform:
   m_ObjectHideFlags: 0
@@ -8339,7 +8299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d03a8ff05b38a8469d3f24c595c275a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puppy3Animator: {fileID: 1862748081}
+  puppy3Animator: {fileID: 0}
   magicSpellParticleSystem: {fileID: 30931216}
 --- !u!1 &1865222205
 GameObject:
@@ -10165,7 +10125,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7278604337335409940}
-  - component: {fileID: 7946914595578234799}
   - component: {fileID: 7946914595578234800}
   m_Layer: 0
   m_Name: Puppy 1
@@ -10174,25 +10133,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &7946914595578234799
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7946914595578234798}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 95385cba866102846bdaf58cdaaf12d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &7946914595578234800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10205,7 +10145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639c936731b70b94c94ee42fa471c3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puppy1Animator: {fileID: 7946914595578234799}
+  puppy1Animator: {fileID: 0}
 --- !u!1 &7962085608583868309
 GameObject:
   m_ObjectHideFlags: 0

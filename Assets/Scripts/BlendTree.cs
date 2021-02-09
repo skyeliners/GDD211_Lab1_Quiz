@@ -12,6 +12,15 @@ public class BlendTree : MonoBehaviour
 
 	private void Update()
 	{
-		
+		if (Input.GetAxisRaw("Vertical") > 0f) //Walk
+		{
+
+		}
+		else //Idle
+		{
+
+		}
+
+		transform.position += new Vector3(Time.deltaTime * 0.32f * speed, 0f);
 	}
 }
