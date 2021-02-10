@@ -8,19 +8,19 @@
 public class BlendTree : MonoBehaviour
 {
 	[SerializeField] private Animator puppy2Animator;
-	private float speed;
+	private float speed=2f;
 
 	private void Update()
 	{
 		if (Input.GetAxisRaw("Vertical") > 0f) //Walk
 		{
-
+			transform.position += new Vector3(Time.deltaTime * 0.32f * speed, 0f);
+			puppy2Animator.SetFloat("Blend",1);
 		}
 		else //Idle
 		{
-
+			puppy2Animator.SetFloat("Blend",0);
 		}
 
-		transform.position += new Vector3(Time.deltaTime * 0.32f * speed, 0f);
 	}
 }
