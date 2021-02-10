@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GDD211_Lab1_Quiz</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">GDD211_Lab1_Quiz</div>
+		<br>
+		<h1>GDD211 Lab 1 - Advanced Animation - Quiz</h1>
+		<p>Please recreate this scene in Unity.<br>You can find the project template here: <a href="https://github.com/ProfessorBlake/GDD211_Lab1_Quiz">https://github.com/ProfessorBlake/GDD211_Lab1_Quiz</a></p>
+	      <br>Create a <i>Walk</i> animation for the puppies.
+			<br><b><center>Puppy 1 (Top) - Animations with transitions</center></b>
+			<ul>
+				<li><i>Idle</i> animation plays when not moving.
+				<li><i>Walk</i> animation plays when moving.
+				<li>Animator transitions between Idle and Walk by checking condition of a parameter (your choice of which type).
+			</ul>
+			<br><b><center>Puppy 2 (Middle) - Animations with Blend Tree</center></b>
+			<ul>
+				<li><i>Idle</i> animation plays when not moving.
+				<li><i>Walk</i> animation plays when moving.
+				<li>Animator uses blend tree to control which animation is playing.
+			</ul>
+			<br><b><center>Puppy 3 (Bottom) - Animations with Animation Event (Optional: Exceedes Expectations)</center></b>
+			<ul>
+				<li><i>IdleEvents</i> animation plays when not moving.
+				<li><i>Walk</i> animation plays when moving.
+				<li>Add an animation event to the <i>IdleEvents</i> animation clip which calls the <code>PuppyMagicSpell</code> function in the <code>AnimationEvent</code> script.
+			</ul>
+			</div></div>
+  </body>
+</html>
